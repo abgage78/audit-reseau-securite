@@ -4,6 +4,11 @@
 **Auteur :** Équipe d'audit abgage78  
 **Périmètre :** Entreprise ~200 utilisateurs, 3 sites, cloud hybride, Wi-Fi, VPN
 
+> 💡 **Navigation rapide :**  
+> • 📊 [Vue d'ensemble visuelle](./VUE_ENSEMBLE.md) — Diagrammes et flux de travail  
+> • 🚀 [Démarrage rapide](./DEMARRAGE_RAPIDE.md) — Guide pas-à-pas  
+> • 📋 [Export complet](./EXPORT_COMPLET.md) — Documentation complète
+
 ---
 
 ## 📦 Contenu du package — 11 livrables professionnels
