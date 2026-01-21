@@ -1,0 +1,7 @@
+ID,Finding,Severity,Recommended_action,Owner,Priority,Target_date,Estimated_effort_hours
+R-001,FW: règle "permit any any" depuis Internet vers segment serveur,Critique,Restreindre règle; appliquer ACL par service; activer logging; justification exigée,Network,Immediate,2026-02-06,8
+R-002,Serveur web public non patché (CVE exploitable),Critique,Appliquer patch; activer WAF; isoler temporairement en DMZ,App team,Immediate,2026-02-08,12
+R-003,Wi‑Fi: SSID entreprise en WPA2‑PSK (clé partagée),Élevé,Migrer vers WPA3‑Enterprise/802.1X; déployer RADIUS,Wifi team,30 days,2026-03-11,40
+R-004,Comptes de service stockant mots de passe en clair,Moyen,Utiliser Vault/secret rotation; vérifier droits comptes,Infra,30 days,2026-03-13,16
+R-005,Bucket S3 public contenant exports internes,Élevé,Rendre privé; appliquer chiffrement & policies,Cloud team,Immediate,2026-02-11,6
+R-006,Logs pare‑feu non centralisés,Bas,Activer export Syslog vers SIEM; vérifier parsers,Security Ops,30 days,2026-03-02,10

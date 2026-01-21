@@ -1,0 +1,15 @@
+Task,Start,End,Duration_days,Owner,Dependencies,Notes
+Préparation & ROE,2026-02-03,2026-02-07,5,Chef de mission,,"Collecte documents, signature ROE"
+Collecte documentation & accès,2026-02-03,2026-02-10,6,Liaison IT,Préparation & ROE,"Accès consoles cloud/AD/FW"
+Discovery & Inventaire - Site 1,2026-02-10,2026-02-14,5,Auditeur réseau,Collecte documentation & accès,"Scan non‑intrusif, SNMP walk, export configs"
+Discovery & Inventaire - Site 2,2026-02-10,2026-02-14,5,Auditeur réseau,Collecte documentation & accès,
+Discovery & Inventaire - Site 3,2026-02-13,2026-02-17,5,Auditeur réseau,Collecte documentation & accès,
+Inventory Cloud & AD,2026-02-10,2026-02-17,6,Expert cloud,Collecte documentation & accès,"IAM, buckets, roles, services"
+Analyse config & règles (FW Switch),2026-02-18,2026-02-25,6,Auditeur réseau,"Discovery & Inventaire - Site 1;Site 2;Site 3","Review ACL, NAT, FW policies"
+Tests techniques non-intrusifs (externes),2026-02-18,2026-02-23,6,Pentester,Inventory Cloud & AD,"Recon extern, web scans"
+Tests techniques intrusifs (internes),2026-02-25,2026-03-06,10,Pentester,Analyse config & règles,"Exploitation contrôlée, AD, lateral movement"
+Wi-Fi survey & tests,2026-02-25,2026-03-01,5,Auditeur réseau,"Discovery & Inventaire - Site 1;Site 2;Site 3","Coverage, rogue detection, auth"
+SIEM & logs review,2026-03-03,2026-03-07,5,Auditeur réseau,Inventory Cloud & AD,"Log sources, retention, alerting"
+Rédaction Rapport & Recommandations,2026-03-08,2026-03-14,5,Chef de mission,"Tests techniques intrusifs;SIEM review","Executive + technique"
+Présentation exécutive & clôture,2026-03-16,2026-03-17,2,Chef de mission,Rédaction Rapport & Recommandations,
+Re-test / Validation (optionnel),2026-03-31,2026-04-04,5,Auditeurs,Remédiations effectuées,"Vérification corrections"
