@@ -110,6 +110,16 @@ cd audit-reseau-securite
 
 Ou télécharger les fichiers individuellement depuis l'interface GitHub.
 
+## 🚀 Démarrage rapide
+
+**Nouveau utilisateur ?** Consultez le **[Guide de démarrage rapide](./DEMARRAGE_RAPIDE.md)** pour :
+- ✅ Étapes pas-à-pas pour démarrer un audit
+- ✅ Checklist avant de commencer
+- ✅ Commandes utiles
+- ✅ Conseils de sécurité et conformité
+
+**Documentation complète ?** Consultez **[EXPORT_COMPLET.md](./EXPORT_COMPLET.md)** pour la synthèse complète de tous les livrables.
+
 ---
 
 ## 🛠️ Utilisation des CSV
