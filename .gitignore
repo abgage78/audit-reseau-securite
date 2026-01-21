@@ -1,0 +1,42 @@
+# Audit exports and temporary files
+audit_exports_*/
+*.log
+*.tmp
+*.temp
+
+# Sensitive data - DO NOT COMMIT
+*.key
+*.pem
+*.p12
+*.pfx
+*_credentials*
+*_password*
+*_apikey*
+
+# Configuration exports (may contain sensitive data)
+*_running.cfg
+*_config.xml
+*_config.txt
+
+# CSV work files (keep original templates only)
+~$*.csv
+*.csv#
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Cookie files
+*_cookie.txt
